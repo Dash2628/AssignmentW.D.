@@ -1,3 +1,10 @@
-body{
-    background-color: aqua;
+body {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+    grid-template-areas:
+        "nav"
+        "main"
+        "footer";
 }
+
