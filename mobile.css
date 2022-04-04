@@ -6,5 +6,27 @@ body {
         "nav"
         "main"
         "footer";
+
 }
 
+nav {
+    display: none;
+
+    position: fixed;
+    top: 0;
+    left: 50%;
+    width: 50%;
+    height: 100vh;
+   }
+
+#showNav .ON {display: block;}
+#showNav .OFF {display: none;}
+
+#showNav:target .ON {display: none;}
+#showNav:target .OFF {display: block;}
+
+#showNav:target nav { display:block;}
+
+.right img {
+    width: 20%;
+}

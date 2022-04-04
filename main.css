@@ -1,0 +1,17 @@
+* {
+    margin:0;
+    padding: 0;
+}
+
+nav{
+    background-color: blueviolet;
+    grid-area: nav;
+}
+main{
+    background-color: rgb(218, 112, 112);
+    grid-area: main;
+}
+footer{
+    background-color: rgb(77, 160, 132);
+    grid-area: footer;
+}
