@@ -94,3 +94,15 @@ nav {
     border-radius: 1em;
     box-shadow: 5px 10px #8888885b;
 }
+
+
+
+
+.blogP section
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5em 0;
+}

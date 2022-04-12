@@ -15,3 +15,9 @@ footer{
     background-color: rgb(77, 160, 132);
     grid-area: footer;
 }
+
+.blogP {
+    background-image: url(background03.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}

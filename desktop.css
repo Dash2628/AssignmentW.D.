@@ -83,3 +83,22 @@ nav a:hover {
     width: 305px;
     object-fit: cover;
 }
+
+
+/* Blog Page*/
+
+.blogP {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.blogP section
+{
+    text-align: center;
+    margin: 2em;
+}
+
+.blogP h1 
+{
+    font-size: 2em;
+}
