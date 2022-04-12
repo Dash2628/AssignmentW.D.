@@ -7,13 +7,14 @@ body{
      "main"
      "footer";
     }
-main{
+
+ .indexP {
     display: grid;
     grid-template-columns: 80% 20%;
     grid-template-rows: auto;
     grid-template-areas: "left right";
     height: 90vh;
-}    
+}     
 
 .left{
     grid-area: left;
@@ -34,4 +35,51 @@ main{
 
 .right img {
     width: 100%;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+nav li {
+    width: 100%;
+    text-align: center;
+}
+
+nav ul a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.5em;
+    display: block;
+    transition: 0.5s ease;
+
+}
+
+nav a:hover {
+    background-color: rgba(0, 0, 0, 0.192);
+    transition: 0.5s ease;
+}
+
+.ON, .OFF {
+    display: none;
+}
+/* PORTFOLIO PAGE */
+.portP {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: auto;
+    justify-items: center;
+    align-items: center;
+    padding: 2em;
+    grid-gap: 1em;
+    padding-top: 5em;
+    padding-bottom: 5em;
+}
+
+.portP img {
+    height: 165px;
+    width: 305px;
+    object-fit: cover;
 }
