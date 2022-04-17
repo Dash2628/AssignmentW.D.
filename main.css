@@ -4,15 +4,15 @@
 }
 
 nav{
-    background-color: blueviolet;
+    background-color: rgba(67, 21, 110, 0.637);
     grid-area: nav;
 }
 main{
-    background-color: rgb(218, 112, 112);
+    background-color: rgba(129, 87, 87, 0.397);
     grid-area: main;
 }
 footer{
-    background-color: rgb(77, 160, 132);
+    background-color: rgb(187, 49, 49);
     grid-area: footer;
 }
 
@@ -21,3 +21,5 @@ footer{
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+
