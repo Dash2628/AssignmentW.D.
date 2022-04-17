@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,17 +10,52 @@
     <link rel="stylesheet" href="mobile.css" media="screen and (max-width: 800px)" />
     <link rel="stylesheet" href="desktop.css" media="screen and (min-width: 800px)" />
 </head>
-<body>
+<a href="#showNav" class="ON">ON</a>
+<a href="#" class="OFF">OFF</a>
+
+<body id="showNav">
+
     <nav>
+
         <ul>
             <li> <a href="index.html"> Index</a></li>
-            <li> <a href ="Portfolio.html">Portfolio</a></li>
-            <li> <a href ="Blog.html">Blog</a></li>
-            <li> <a href ="Contact.html">Contact</a></li>
-            <li> <a href ="Sitereport.html">Sitereport</a></li>
+            <li> <a href="Portfolio.html">Portfolio</a></li>
+            <li> <a href="Blog.html">Blog</a></li>
+            <li> <a href="Contact.html">Contact</a></li>
+            <li> <a href="Sitereport.html">Sitereport</a></li>
 
         </ul>
     </nav>
-    
+
+
+    <main class="contactP">
+        <section>
+            <h1>Email Form</h1>
+            <form action="action" method="post">
+                <label for="firstinput"> FirstName</label> <input type="text" name="input1" placeholder="Name"
+                    id="firstinput" />
+                <label for="secondinput"> SurName</label> <input type="text" name="input2" placeholder="SurName"
+                    id="secondinput" />
+                <label for="thirdinput"> Email</label> <input type="text" name="input3" placeholder="Email"
+                    id="thirdinput" />
+                <label for="fourthinput"> Password</label> <input type="password" name="input4" placeholder="Password"
+                    id="fourthinput" />
+                <label for="fifthinput">Country</label> <select name="myselect">
+                    <option value="one" selected disabled> Select Your Country</option>
+                    <option value="two"> India</option>
+                    <option value="two"> China</option>
+                    <option value="two"> Japan</option>
+                    <option value="two"> England</option>
+                    <option value="two"> USA</option>
+                </select>
+                <input type="checkbox" name="input6" id="sixthinput" /> <label for="sixthinput">Agree Terms and
+                    Conditions</label>
+                <label for="Seveninput"></label> <input type="button" value="Submit" name="input7" id="Seveninput" />
+            </form>
+        </section>
+
+    </main>
+
 </body>
+
 </html>

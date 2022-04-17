@@ -41,6 +41,7 @@ nav {
     width: 20%;
 }
 
+
 .indexP {
     display: grid;
     grid-template-columns: auto;
@@ -96,7 +97,7 @@ nav {
 }
 
 
-
+/* Blog Page */
 
 .blogP section
 {
@@ -105,4 +106,21 @@ nav {
     justify-content: center;
     align-items: center;
     margin: 5em 0;
+}
+
+
+
+.contactP{
+    display: grid;
+    width: 400px;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    grid-gap: 0.5em;
+    margin: 10% auto;
+    padding:4em;
+    margin-top:2 em;
+
+    }
+    .submit {
+    grid-column: 2;
 }
