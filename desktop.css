@@ -91,6 +91,8 @@ nav a:hover {
 }
 
 
+
+
 /* Blog Page*/
 
 .blogP {
@@ -112,19 +114,53 @@ nav a:hover {
     font-size: 2em;
 }
 
-.contactP{
+
+  .contactP{
+      width: 100%; 
+  }
+  
+  form {
+    box-sizing: border-box;
+    padding: 12rem;
+    border-radius: 1.5rem;
+    background-color: hsl(0, 5%, 41%);
+    border: 4px solid hsl(0, 0%, 90%);
     display: grid;
-    width: 400px;
-    grid-template-columns: 50% 50%;
-    align-items: center;
-    grid-gap: 0.5em;
-    margin: 10% auto;
-    padding:4em;
-    margin-top:2 em;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    font-size: 2em;
+  }
 
-    }
-    .submit {
-    grid-column: 2;
-}
+  .contactP h1{
+    text-align:center;
+    background-color: rgb(133, 122, 122);
+    padding: 1em;
+    margin: 1em;
+    border-radius: 2em;
+
+  }
 
 
+
+  /*sitereport*/
+
+  .div{
+      width: auto;
+      padding: 6em;
+      margin: 8px;
+      border-radius: 0.5em maroon;
+      text-align: center;
+  }
+   
+  
+  img{
+      max-width: 90%;
+      border-radius: 1em;
+      padding: 0.5em;
+      text-align: center;
+      height: auto;
+      image-resolution:10px;
+      margin-left: 4em;
+  }
+
+ 

@@ -110,17 +110,53 @@ nav {
 
 
 
-.contactP{
-    display: grid;
-    width: 400px;
-    grid-template-columns: 50% 50%;
-    align-items: center;
-    grid-gap: 0.5em;
-    margin: 10% auto;
-    padding:4em;
-    margin-top:2 em;
 
-    }
-    .submit {
-    grid-column: 2;
+
+
+.contactP{
+    width: 100%; 
+}
+
+form {
+  box-sizing: border-box;
+  padding: 0.5rem;
+  border-radius: 1rem;
+  background-color: hsl(0, 5%, 41%);
+  border: 4px solid hsl(0, 0%, 90%);
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.5rem;
+  font-size: 1em;
+}
+
+.contactP h1{
+  text-align:center;
+  background-color: rgb(133, 122, 122);
+  padding: 0.5em;
+  margin: 0.5em;
+  border-radius: 1em;
+
+}
+
+/*sitereport*/
+
+.div{
+    width: auto;
+    padding: 3em;
+    margin: 4px;
+    border-radius: 0.5em maroon;
+    text-align: center;
+    
+}
+ 
+
+img{
+    content: none;
+    max-width: 90%;
+    border-radius: 0.5em;
+    padding: 0.2em;
+    text-align: center;
+    height: auto;
+    image-resolution:10px;
+    margin-left: 1em;
 }
